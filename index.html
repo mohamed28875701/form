@@ -22,35 +22,39 @@
             </div>
             <div class="form">
                 <form action="/" method="post">
-                    <div >
-                        <label for="first-name">First name</label>
-                        <input type="text" id="first-name" name="first-name">
+                    <div id="first-section">
+                        <div >
+                            <label for="first-name">First name</label>
+                            <input type="text" id="first-name" name="first-name">
+                        </div>
+                        <div>
+                            <label for="second-name">Second name</label>
+                            <input type="text" id="second-name" name="second-name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div> 
                     </div>
-                    <div>
-                        <label for="second-name">Second name</label>
-                        <input type="text" id="second-name" name="second-name">
-                    </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
-                    </div> 
-                    <div>
-                        <label for="number">Phone number</label>
-                        <input type="number" id="number" name="number">
-                    </div>
-                    <div>
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password">
-                    </div>
-                    <div>
-                        <label for="confirm-pass">Confirm password</label>
-                        <input type="password" id="confirm-pass" name="confirm-pass">
+                    <div id="second-section">
+                        <div >
+                            <label for="number">Phone number</label>
+                            <input type="number" id="number" name="number">
+                        </div>
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div>
+                            <label for="confirm-pass">Confirm password</label>
+                            <input type="password" id="confirm-pass" name="confirm-pass">
+                        </div>
                     </div>
                 </form>
             </div>
             <div class="signup">
-                <button type="submit">Sign up</button>
-                <p>have an account already? <a href="/">log in</a></p>
+                <button type="submit" id="sign">Sign up</button>
+                <p id="ques">have an account already? <a href="/">log in</a></p>
             </div>
         </div>
     </div>
