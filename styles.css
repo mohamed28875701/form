@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    min-height: 100vh;
+}
+.wrapper{
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar{
+    
+    background:url("maximalfocus-VT4rx775FT4-unsplash.jpg");
+    background-size: contain;
+    height: inherit;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo{
+    background-color:rgb(56,251,219,.1) ;
+    height: 100px;
+    width:400px;
+    color:azure;
+    font-family: "Courgette",sans-serif;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+#name{
+    margin: 0%;
+    position: relative;
+    top:30px;
+    
+}
+#cop{
+    margin-left: 3em;
+    color: aliceblue;
+    
+}
+a{
+    color: aliceblue;
+}
+label{
+    display: block;
+}
